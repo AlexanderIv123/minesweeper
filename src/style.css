@@ -22,7 +22,7 @@
 .counterFlag {
   display: flex;
   align-items: center;
-  max-width: 138px;
+  max-width: 150px;
   height: 90px;
   background-image: url('./assets/nums_background.svg');
   background-size: cover;
@@ -31,7 +31,7 @@
 .counterTime {
   display: flex;
   align-items: center;
-  max-width: 138px;
+  max-width: 150px;
   background-image: url('./assets/nums_background.svg');
   background-size: cover;
 }
@@ -48,11 +48,11 @@
 
 .block {
   border: 1px solid black;
-  width: calc(10% - 2px);
+  width: calc(9.9% - 2px);
   height: calc(10% - 2px);
   text-align: center;
   color:darkblue;
-  font-size: 4vh;
+  font-size: 40px;
   background-image: url("./assets/block.png");
   background-size: cover;
 }
@@ -78,25 +78,25 @@
 }
 
 .counterPicture0 {
-  margin-top: 1px;
-  width: 44px;
-  height: 84px;
+  margin-top: 3px;
+  width: 48px;
+  height: 86px;
   background-size: cover;
 }
 
 .counterPicture1 {
-  margin-top: 1px;
-  width: 44px;
-  height: 84px;
-  margin-left: 3px;
-  margin-right: 3px;
+  margin-top: 3px;
+  width: 48px;
+  height: 86px;
+  margin-left: 4px;
+  margin-right: 4px;
   background-size: cover;
 }
 
 .counterPicture2 {
-  margin-top: 1px;
-  width: 44px;
-  height: 84px;
+  margin-top: 3px;
+  width: 48px;
+  height: 86px;
   background-size: cover;
 }
 
@@ -112,4 +112,39 @@
   background-image: url("./assets/d8.svg");
   background-image: url("./assets/d9.svg");
   background-image: url("./assets/d-.svg");
+}
+
+@media (max-width: 425px) {
+
+.counterFlag {
+  max-width: 138px;
+}
+
+.counterTime {
+  max-width: 138px;
+}
+
+.block {
+  font-size: 30px;
+}
+
+.counterPicture0 {
+  margin-top: 1px;
+  width: 44px;
+  height: 82px;
+}
+
+.counterPicture1 {
+  margin-top: 1px;
+  width: 44px;
+  height: 82px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.counterPicture2 {
+  margin-top: 1px;
+  width: 44px;
+  height: 82px;
+}
 }
