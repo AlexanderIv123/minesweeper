@@ -82,7 +82,7 @@ const main = () => {
 
   const rundomNumber = () => Math.floor(Math.random() * 100);
 
-  const amountOfMines = 30;
+  const amountOfMines = 20;
 
   const rundomMines = [];
 
