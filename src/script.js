@@ -274,7 +274,7 @@ const main = () => {
         container.removeEventListener('click', clickFunction);
         container.removeEventListener('contextmenu', contextmenuFunction);
         setTimeout(() => clearInterval(timer));
-        setTimeout(() => alert('Game over. Try again'), 3000);
+        setTimeout(() => alert('Game over. Try again'), 1000);
       }
       if (!event.target.classList.contains('opened') && !event.target.classList.contains('mine')) {
         soundClick();
