@@ -260,6 +260,12 @@ const main = () => {
     amountOfFlags();
   };
 
+  const gameRestart = () => {
+    document.body.innerHTML = '';
+    main();
+    soundStart();
+  };
+
   const clickFunction = (event) => {
     amountOfClicks += 1;
     if (!event.target.classList.contains('flag')) {
@@ -274,7 +280,7 @@ const main = () => {
         container.removeEventListener('click', clickFunction);
         container.removeEventListener('contextmenu', contextmenuFunction);
         setTimeout(() => clearInterval(timer));
-        setTimeout(() => alert('Game over. Try again'), 1000);
+        setTimeout(() => {face.addEventListener('click', gameRestart); alert('Game over. Try again')}, 1000);
       }
       if (!event.target.classList.contains('opened') && !event.target.classList.contains('mine')) {
         soundClick();
@@ -302,17 +308,9 @@ const main = () => {
     }
   };
 
-  const gameRestart = () => {
-    document.body.innerHTML = '';
-    main();
-    soundStart();
-  };
-
   container.addEventListener('click', firstClickFunction);
 
   container.addEventListener('contextmenu', contextmenuFunction);
-
-  face.addEventListener('click', gameRestart);
 };
 
 main();
