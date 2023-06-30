@@ -280,7 +280,7 @@ const main = () => {
         container.removeEventListener('click', clickFunction);
         container.removeEventListener('contextmenu', contextmenuFunction);
         setTimeout(() => clearInterval(timer));
-        setTimeout(() => {face.addEventListener('click', gameRestart); alert('Game over. Try again')}, 1000);
+        setTimeout(() => { face.addEventListener('click', gameRestart); alert('Game over. Try again'); }, 1000);
       }
       if (!event.target.classList.contains('opened') && !event.target.classList.contains('mine')) {
         soundClick();
@@ -288,6 +288,7 @@ const main = () => {
         emptyBlocksField(event.target);
         addNumberFunction();
         gameOver();
+        face.addEventListener('click', gameRestart)
       }
     }
   };
