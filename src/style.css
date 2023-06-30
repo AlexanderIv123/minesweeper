@@ -45,9 +45,10 @@
 }
 
 .block {
+  /* display: flex; */
   border: 1px solid black;
-  width: calc(10.05% - 2px);
-  height: calc(10.05% - 2px);
+  width: calc(10% - 2px);
+  height: calc(10% - 2px);
   text-align: center;
   color:darkblue;
   font-size: 40px;
