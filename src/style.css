@@ -22,14 +22,16 @@
 .counterFlag {
   display: flex;
   align-items: center;
-  width: 150px;
+  max-width: 138px;
   height: 90px;
   background-image: url('./assets/nums_background.svg');
   background-size: cover;
 }
 
 .counterTime {
-  width: 150px;
+  display: flex;
+  align-items: center;
+  max-width: 138px;
   background-image: url('./assets/nums_background.svg');
   background-size: cover;
 }
@@ -45,13 +47,12 @@
 }
 
 .block {
-  /* display: flex; */
   border: 1px solid black;
   width: calc(10% - 2px);
   height: calc(10% - 2px);
   text-align: center;
   color:darkblue;
-  font-size: 40px;
+  font-size: 4vh;
   background-image: url("./assets/block.png");
   background-size: cover;
 }
@@ -77,25 +78,25 @@
 }
 
 .counterPicture0 {
-  margin-top: 3px;
-  width: 47px;
-  height: 86px;
+  margin-top: 1px;
+  width: 44px;
+  height: 84px;
   background-size: cover;
 }
 
 .counterPicture1 {
-  margin-top: 3px;
-  width: 47px;
-  height: 86px;
+  margin-top: 1px;
+  width: 44px;
+  height: 84px;
   margin-left: 3px;
   margin-right: 3px;
   background-size: cover;
 }
 
 .counterPicture2 {
-  margin-top: 3px;
-  width: 47px;
-  height: 86px;
+  margin-top: 1px;
+  width: 44px;
+  height: 84px;
   background-size: cover;
 }
 
