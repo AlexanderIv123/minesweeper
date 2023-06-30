@@ -1,0 +1,113 @@
+.scoreTable {
+  display: flex;
+  max-width: 500px;
+  height: 90px;
+  background-color: grey;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+
+.face {
+  width: 90px;
+  height: 90px;
+  background-image: url('./assets/face.jpeg');
+  cursor: pointer;
+  background-size: cover;
+}
+
+.deadFace {
+  background-image: url('./assets/deadFace.png');
+}
+
+.counterFlag {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: 90px;
+  background-image: url('./assets/nums_background.svg');
+  background-size: cover;
+}
+
+.counterTime {
+  width: 150px;
+  background-image: url('./assets/nums_background.svg');
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 500px;
+  aspect-ratio : 1 / 1;
+  margin: 0 auto;
+  background-color: grey;
+  cursor: pointer;
+}
+
+.block {
+  border: 1px solid black;
+  width: 9.6%;
+  height: 9.6%;
+  text-align: center;
+  color:darkblue;
+  font-size: 40px;
+  background-image: url("./assets/block.png");
+  background-size: cover;
+}
+
+.boom {
+  background-image: url("./assets/boom.png");
+}
+
+.mine {
+}
+
+.mines {
+  background-image: url("./assets/mine.png");
+  background-position:center center;
+}
+
+.opened{
+  background-image: none;
+}
+
+.flag{
+  background-image: url("./assets/flag.png");
+}
+
+.counterPicture0 {
+  margin-top: 3px;
+  width: 47px;
+  height: 86px;
+  background-size: cover;
+}
+
+.counterPicture1 {
+  margin-top: 3px;
+  width: 47px;
+  height: 86px;
+  margin-left: 3px;
+  margin-right: 3px;
+  background-size: cover;
+}
+
+.counterPicture2 {
+  margin-top: 3px;
+  width: 47px;
+  height: 86px;
+  background-size: cover;
+}
+
+.counterPicture {
+  background-image: url("./assets/d0.svg");
+  background-image: url("./assets/d1.svg");
+  background-image: url("./assets/d2.svg");
+  background-image: url("./assets/d3.svg");
+  background-image: url("./assets/d4.svg");
+  background-image: url("./assets/d5.svg");
+  background-image: url("./assets/d6.svg");
+  background-image: url("./assets/d7.svg");
+  background-image: url("./assets/d8.svg");
+  background-image: url("./assets/d9.svg");
+  background-image: url("./assets/d-.svg");
+}
