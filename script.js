@@ -1,10 +1,10 @@
 /* eslint-disable no-plusplus */
-import './style.css';
-import './assets/click.wav';
-import './assets/lose.wav';
-import './assets/start.wav';
-import './assets/flag.mp3';
-import './assets/win.wav';
+// import './style.css';
+// import './assets/click.wav';
+// import './assets/lose.wav';
+// import './assets/start.wav';
+// import './assets/flag.mp3';
+// import './assets/win.wav';
 
 const main = () => {
   const soundCreator = (src) => {

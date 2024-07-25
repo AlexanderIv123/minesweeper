@@ -1,3 +1,6 @@
+body{
+  background-color: rgb(217, 204, 191);
+}
 .scoreTable {
   display: flex;
   max-width: 500px;
@@ -59,9 +62,6 @@
 
 .boom {
   background-image: url("./assets/boom.png");
-}
-
-.mine {
 }
 
 .mines {
