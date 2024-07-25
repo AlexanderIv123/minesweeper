@@ -148,3 +148,42 @@ body{
   height: 82px;
 }
 }
+
+@media (max-width: 375px) {
+
+  .counterFlag {
+    max-width: 132px;
+  }
+  
+  .counterTime {
+    max-width: 132px;
+  }
+  
+  .face {
+    width: 89px;
+    height: 89px;
+    background-image: url('./assets/face.jpeg');
+    cursor: pointer;
+    background-size: cover;
+  }
+  
+  .counterPicture0 {
+    margin-top: 1px;
+    width: 42px;
+    height: 81px;
+  }
+  
+  .counterPicture1 {
+    margin-top: 1px;
+    width: 42px;
+    height: 81px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  
+  .counterPicture2 {
+    margin-top: 1px;
+    width: 42px;
+    height: 81px;
+  }
+  }
