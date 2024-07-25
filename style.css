@@ -19,7 +19,11 @@ body{
 }
 
 .deadFace {
+  width: 90px;
+  height: 90px;
   background-image: url('./assets/deadFace.png');
+  cursor: pointer;
+  background-size: cover;
 }
 
 .counterFlag {
@@ -152,17 +156,25 @@ body{
 @media (max-width: 375px) {
 
   .counterFlag {
-    max-width: 132px;
+    max-width: 125px;
   }
   
   .counterTime {
-    max-width: 132px;
+    max-width: 130px;
   }
   
   .face {
-    width: 89px;
-    height: 89px;
+    width: 85px;
+    height: 90px;
     background-image: url('./assets/face.jpeg');
+    cursor: pointer;
+    background-size: cover;
+  }
+
+  .deadFace {
+    width: 85px;
+    height: 90px;
+    background-image: url('./assets/deadFace.png');
     cursor: pointer;
     background-size: cover;
   }
